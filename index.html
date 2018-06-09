@@ -1,23 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rafid Dewan</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .navbar{
+        margin-bottom:0;
+        border-radius: 0;
+      }
+    </style>
+  </head>
+  
+  <body>
 
-<head>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
-  <meta name = "description" content = "Rafid Dewan's website"
-  <meta name="keywords" content="Rafid Dewan, Professional Website, web design, software engineer, front-end developer, Unity developer, IEEE Carleton, Carleton University, Earl of March Secondary School, co-op, Bengali,Canada, Kanata" initial-scale="1.0">
-  <title>Rafid Dewan</title>
-</head>
+    <!--Navagation bar-->
 
-<body>
-  <!--Title of the website-->
-  <header id = "website-title">
-    <h1>Rafid Dewan</h1>
-  </header>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Home</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">About Me <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    <div class ="container">
+        <h1 class="page-header"><strong>Rafid Dewan</strong> <small> Welcome!</small> </h1>
+    <p class="lead"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quae, totam possimus reprehenderit sed tempore maxime numquam ea accusamus quibusdam, earum a recusandae illum dolores, reiciendis perferendis ad quod. Possimus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eaque veniam, laborum enim totam officia voluptatum nobis non at a accusamus libero, quo tenetur impedit porro? Nemo quia beatae dicta?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit assumenda maxime voluptas quod, nihil rem magni. Aut vel eius exercitationem at ullam eaque architecto tempore quidem earum, repellendus consequatur asperiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam modi beatae ex quaerat nam ab corporis, recusandae, suscipit culpa eaque sit dolorem a tenetur et, accusamus cupiditate quia aut perspiciatis!</p>
+    <hr>
 
-  <footer id = "main-footer">Copyright &copy; 2018, Rafid Dewan</footer>
+    <p class="text-left text-lowercase">left aligned text.</p>
+    <p class="text-center text-uppercase">centered aligned text.</p>
+    <p class="text-right text-capitalized">right aligned text.</p>
+    <p class="text-justified">justified text.</p>
+    <p class="text-nowrap">no wrap text.</p>
+  
+  <hr>
 
+  <blockquote class = "blockquote-reverse">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <footer>Quote by <cite title = "Rafid Dewan">Rafid Dewan</cite></footer>
+    </p>
+  </blockquote>
+
+  <ul class  = "list-unstyled">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+  </ul>
+
+  <ul class = "list-inline">
+    <li>Item One</li>
+    <li>Item Two</li>
+    <li>Item Three</li>
+    <li>Item four</li>
+  </ul>
+    <br>
+    <code>&lt;h1&gt; Welcome &lt/h1&gt;</code>
+    <br>
+    Change directory with <kbd>cd</kbd>
+    <br>
+    To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>, </kbd></kbd>
+    <hr>
+  </div>
+
+  <hr>
   
 
-</body>
+  <div class = "container">
+    <form>
+      <div class = "form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" placeholder = "Add Name">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="text" class="form-control" placeholder = "Add email">
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea type="text" class="form-control" placeholder = "Add Message"></textarea>
+      </div>
+        <div class="form-group">
+          <label>Gender</label>
+          <select class = "form-control">
+            <option value= "male">Male</option>
+            <option value= "female">Female</option>
+            <option value= "other">Other</option>
+          </select>
+        </div>
+        <div class = "form-group">
+          <label>Insert Attachment (Optional)</label>
+          <input type = "file">
+          <p class = "help-block">Only png and jpg allowed</p>
+        </div>
+    </form>
+  </div>
+  
+  <hr>
+
+  <div class = "alert alert-warning" role = "alert">This site is not completed yet</div>
+
+  <div class ="progress">
+    <div class = "progress-bar progress-bar-striped active" style = "width: 30%"> 20%
+    </div>
+  <div style = "height:400px"></div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
