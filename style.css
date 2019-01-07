@@ -64,23 +64,56 @@ overflow: auto;
   font-size: 1.8em;
 }
 
+.fa:hover {
+  opacity: 0.7;
+  color: rgba(128, 128, 128, 0.527);
+  text-decoration: none;
+}
 
+.fa-envelope {
 
+  color: white;
+  padding-left:0.1em;
+  padding-right:0.1em;
 
+}
 
+.fa-facebook {
 
+  color: white;
+  padding-left:0.1em;
+  padding-right:0.1em;
 
+}
 
+.fa-instagram {
 
+  color: white;
+  padding-left:0.1em;
+  padding-right:0.1em;
 
+}
 
+.fa-linkedin {
 
+  color: white;
+  padding-left:0.1em;
+  padding-right:0.1em;
 
+}
 
+.fa-github {
 
+  color: white;
+  padding-left:0.1em;
+  padding-right:0.1em;
 
+}
 
+.footer-site {
+  background: black;
+}
 
-
-
-
+#footer-content h3, h6 {
+  color:white;
+}
