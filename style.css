@@ -2,6 +2,9 @@ html, body {
   height: 100%;
   width: 100%
 }
+nav {
+overflow: auto;
+}
 
 .navbar {
   background: #000000;
@@ -23,6 +26,32 @@ html, body {
 
 .navbar-inverse .navbar-nav li a:hover, .navbar-inverse .navbar-nav li a.active {
   color: #FFF;
+}
+
+#home {
+  padding: 0 0 0 50px;
+  background: url(img/SPAC_2018_GroupPhoto.png) no-repeat center center fixed;
+  width: 100%;
+  height: 100%; 
+  display:table;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.landing-text {
+  display: table-cell;
+  text-align:center;
+  vertical-align: middle;
+  color: #FFF;
+  filter:brightness(250%);
+}
+
+
+.landing-text h1{
+  font-size: 5em;
+  font-family: Verdna, Geneva, serif;
+  font-style: BOLD;
 }
 
 
