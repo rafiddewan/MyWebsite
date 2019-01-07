@@ -1,7 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis:600,800');
+html, body {
+  height: 100%;
+  width: 100%
+}
 
+.navbar {
+  background: #000000;
+  font-size: 1.2em;
+}
 
+.navbar-brand{
+  padding: 0 15px 9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.4em;
+}
+.navbar-brand.active{
+  color: #FFF;
+}
 
+.navbar-inverse .navbar-nav li a{
+  color: #dad6d6d2;
+}
+
+.navbar-inverse .navbar-nav li a:hover, .navbar-inverse .navbar-nav li a.active {
+  color: #FFF;
+}
 
 
 
