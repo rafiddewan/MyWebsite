@@ -43,6 +43,7 @@ overflow: auto;
   display: table-cell;
   text-align:center;
   vertical-align: middle;
+  text-shadow: 8px 8px 10px #000000;
   color: #FFF;
   filter:brightness(250%);
 }
@@ -53,6 +54,16 @@ overflow: auto;
   font-family: Verdna, Geneva, serif;
   font-style: BOLD;
 }
+
+.landing-text h3{
+  font-size: 2em;
+}
+
+.landing-text h6{
+  padding:0.2em;
+  font-size: 1.8em;
+}
+
 
 
 
