@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Rafid Dewan">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -31,12 +31,13 @@
       <!--Included my name as the Navbar brand-->
       <div class="collapse navbar-collapse" id="navbar-collapse-main">
         <ul class="nav navbar-nav navbar-right">
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Involvement</a></li>
-          <li><a href="#">Interests</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact Me</a></li>
+          <li><a class="active" href="#" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a></li>
+          <li><a href="#section0" data-toggle="collapse" data-target=".navbar-collapse.in">About Me</a></li>
+          <li><a href="#section1" data-toggle="collapse" data-target=".navbar-collapse.in">Involvement</a></li>
+          <li><a href="#section2" data-toggle="collapse" data-target=".navbar-collapse.in">Accomplishments</a></li>
+          <li><a href="#section3" data-toggle="collapse" data-target=".navbar-collapse.in">Projects & Work Experience</a></li>
+          <li><a href="#section4" data-toggle="collapse" data-target=".navbar-collapse.in">Interests</a></li>
+          <li><a href="#footer" data-toggle="collapse" data-target=".navbar-collapse.in">Contact Me</a></li>
         </ul>
         <!--End of unordered list-->
       </div>
@@ -48,14 +49,16 @@
 
 
   <div id="home">
-    <div class="landing-text">
-      <h1>Rafid Dewan</h1>
-      <h3>Carleton University | Software Engineering (B.Eng) | Second Year</h3>
-      <h6>My life has changed drastically ever since I graduated high school</h6>
+    <div class="landing-text" >
+      <div class="container" style="background-color: rgba(0, 0, 0, 0.3); width: 75%;">
+          <h1>Rafid Dewan</h1>
+          <h3>Carleton University | Software Engineering (B.Eng) | Third Year</h3>
+          <h6>My life has changed drastically ever since I graduated high school</h6>
+      </div>
     </div>
   </div>
 
-  <h4 class="text-center"><u>Hello World!</u></h4>
+  <h4 class="text-center" id="section0" style="padding: 3em;"><u>Hello World!</u></h4>
 
   <hr>
 
@@ -77,7 +80,7 @@
     <div class="row">
       <div class="col-sm-8">
         <h2>Lost. Furious. Embarassed.</h2>
-        <p>When I was in high school, I wasn't some outstanding student like the rest of the crowd. My father graduated
+        <p style="font-size: 1.2em;">When I was in high school, I wasn't some outstanding student like the rest of the crowd. My father graduated
           in Electrical Engineering from Chittagong University in Bangladesh, his GPA was one of the highest in the
           country and was recognized by the prime minister of Bangladesh. I used to feel shameful that I will never be
           as good of a student like he was. Choosing enginereing was more so a forced decision at the time since my
@@ -100,7 +103,7 @@
       </div>
       <div class="col-sm-8">
         <h2>Realization. Dream. Hope.</h2>
-        <p> However, one person had changed my entire cognition of what seemed to be my doomed future. That person had
+        <p style="font-size: 1.2em;"> However, one person had changed my entire cognition of what seemed to be my doomed future. That person had
           said "getting into university isn't something to be proud about, what you accomplish in university will show
           your true quality as an individual." Those words resonated to me one night when it was after prom. I was just
           staring at my ceiling wondering if my whole life is just going to be me struggling in engineering and then
@@ -117,10 +120,10 @@
     <div class="row">
       <div class="col-sm-8">
         <h2>Inspire. Determined. Ambitious.</h2>
-        <p>My teachers and friends had noticed that I have shown leadership qualities in many moments of my life, but
+        <p style="font-size: 1.2em;">My teachers and friends had noticed that I have shown leadership qualities in many moments of my life, but
           yet I haven't really used them. I realized that I can actually do something with them in the high-tech
           industry. I always loved both the business aspect and technical aspect of engineering. I have made a
-          long-term goal for myself and that is to become a CEO in the high-tech industry. Regardless how far I get to
+          long-term goal for myself and that is to become a CEO in the high-tech industry. <br>Regardless how far I get to
           my goal (or if I even attain it), I will be proud of the expectations I surpassed compared to many. I want to
           be a CEO just like Elon Musk; someone that has both technical skills and innovative ideas. I made a goal for
           becoming a recognized individual in my university by getting involved and growing my leadership skills,
@@ -142,7 +145,7 @@
       </div>
       <div class="col-sm-8">
         <h2>Determined. Hardworking. Leadership. Professional.</h2>
-        <p>Maybe my GPA doesn't say I'm an A+ student. However, I can say I am a hardworking student with a great
+        <p style="font-size: 1.2em;">Maybe my GPA doesn't say I'm an A+ student. However, I can say I am a hardworking student with a great
           work ethic that can easily work within any team environment. I am not afraid to put the effort into it when
           my superiors ask, and I am always determined for accomplishing my tasks. As I'm diving deeper, and deeper
           into my program I realized I started to love it more and more. The friendships while being involved with
@@ -157,33 +160,184 @@
     </div>
   </div>
 
-  <div id="fixed"></div>
+  <div class="fixed"></div>
   <!--For transition-->
-  <h4 class="text-center"><u>What I've Done!</u></h4>
+  <h4 class="text-center" id="section1" style="padding: 3em;"><u>What I've Done For The Community</u></h4>
+  <div class="container-fluid">
+    <div class="row">
+        <h2 class ="text-center" id="subtitle"> IEEE SPAC 2018 </h2>
+        <h3 class="border-left" id="duration"> Duration: September 2017 - January 2018</h3>
+        <h3 class="border-left" id="duration" style="font-style: italic;">Role: Patronage Team Member and Master of Ceremonies</h3>
+        <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;">My first opportunity I grabbed was IEEE SPAC 2018. It all started at Expo Carleton; which was a day during orientation week where all the clubs present themselves at individual booths. I signed up for this hi-tech engineering club's newsletter called IEEE Carleton. One day, during the second week of my first year, I received an email from the IEEE Carleton Office Director that they were looking for organizers to help out with this big networking event they host ever year. The email mentioned that there will be a meeting for orientaiton that night. I thought this would be an excellent opportunity for me to get my name out there and make connections with amazing companies! Although... I've never organized any event in my life... 
+          <br>I headed to the meeting, and I remember very fondly, the room was very dark with only a dim lamp light above. I was nervous at first, as there were many other individuals who were much older than I was. I noticed at the introduction a lot of others were nervous too. When questions were asked of what we wanted to do for the event this year I decided if I want to make an impact, and lead the conversation by example, I needed to put my hand up, so i did. Naturally, it was really nerve wracking, so I studdered a bit. I was only a freshman, but people applauded my suggestion and said it was a really good idea! After that, others that were quiet started raising their hands up too.
+          <br> I volunteered to work on the patronage team because it was an excellent opportunity for me to make connections with various professionals. My job was to email companies and request for their patronage. From there on, I made some amazing mentors and role models I look up to till this day during our bi-weekly team meetings. Linda Tang was the Patronage Lead at that time and Dharina Hanamuthuda was the event lead. It was also Dharina's first time on the SPAC team too. Both of them demonstrated pure leadership and organization skills when managing the event. I really looked up to both of them and wanted to be great leaders, just like both of them. I was amazed that the first role models I ever had (and in STEM) were women (in a good way of course). I am extremely proud of that.
+          <br>
+          Closer to the event, we had to finalize a couple of things, such as choosing a Master of Cermonies (MC). When Dharina asked who wants to be the MC of IEEE SPAC 2018, I put my hand up. Then, I requested Linda to put her hand up too because I was really comfortable talking to her most of the time. The whole team vouched for us and I was so happy and humbled to be chosen to be one of the hosts for this amazing event. I remembered I practiced the script 20 times right before the event.
+          <br>
+          At the start of the event, I was nervous as there were over 200 people laying there eyes on me, I had butterflies in my stomach. Linda seemed a bit more composed than I was. We had A/V issues as well and I knew already it was going to be a looooooooong night.
+          <br>
+          Over time, I got comfortable talking in front of everyone. I started to make quirky jokes and was perfectly in sync with Linda. We strolled through the entire event and received a huge applause once it was over.
+          <br>
+          Many opportunities came to me soon afterwards. I remember when I went to the cash bar alone to grab a glass of gingerale (I don't drink alcohol as I'm muslim), a recruiter from came up beside me and asked for two beers. He handed one over to me and said, "I know you are underage, but here have this you did amazing." I stared at the drink he gave me and I was speechless. I was honestly flattered and I told him I was but politely declined the offer. He mentioned that I had a bright future ahead of me. I then went to go see my team mates, and the IEEE Carleton Chair, Irusha Vidanamadura came up to me, put his nametag around me, and said, "I see an amazing leader in you, you will go really far in life trust me." I was so happy to hear that because this was the reason my life went uphill. 
+          <br>It's situations like these you've fulfilled and accomplished something in life after feeling useless and not worthy for so long. This might be the longest passage but it's the most memorable one and will always be the part. I wanted to give back to the community of something it gave me. So I decided to aim higher to even volunteer for more positions. The remaining passages are going to be much shorter than this one since this one was the most meaningful story for me.
+          </p>
+      </div>
+      <div class="row">
+        <h2 class ="text-center" id="subtitle"> cuHacking 2018 </h2>
+        <h3 class="border-left" id="duration"> Duration: February 2018 - March 2018</h3>
+        <h3 class="border-left" id="duration" style="font-style: italic;">Role: Logistics Team Member</h3>
+        <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;"> After SPAC I met a guy whose name was Federico Naranjo-Bellina, everyone calls him Rico for short. Rico and I first met at SPAC and he said I did a good job. We got to actually talk during at at this CUSA leadership conference called SOAR. Rico was an exec at IEEE and he was the only one I knew who went to that event. So he tagged along with me. My friends were really excited about cuHacking which was supposed to happen in Feburary. If you're wondering what cuHacking is, it's a large-scale MLH hackathon that happens every year; the first one in Ottawa. Almost all the first-year software engineering students in my year were excited and wondering if they can get in. I told Rico about it, and surprisingly, he was one of the directors of logistics in the team. Rico basically convinced me to join the team since he said I'll be in anyways since I was an organizer. Before I knew it, I had met my lifelong mentor and role model I didn't know I needed but was the best thing I had coming out of this event.
+        <br>
+        There were two leads for cuHacking, one was Eliza Kazan and the other was Taylor Abraham. They were both really smart and successful people. Eliza was doing an internship at Shopify and Taylor was doing one at Kinaxis at the time. They both told me amazing stories about their work experience and got me really excited for co-op whenever I finish my second year. Eliza had task me to budget and manage the food at the event.
+        <br>
+        The event itself was really fun! However I witnessed some organization downfalls, I learned about how important it is to support each other than demotivate and blame each other in a team. I also learned the value of organization and documentation. I felt bad for both Taylor and Eliza since the predecessors for the event hadn't properly documented it. I've even witnessed sponsors falling out from the event because of the fact the event was shifted from February to March on Easter Weekend because of poor organization. uOttaHack on the other hand was just starting up and reached 500 student attendees. It was a huge success. Where were we at Carleton vs. where is uOttawa. However, that all changed within the span of a year. I will get to that in a bit...
+        </p>
+    </div>
+    <div class="row">
+      <h2 class ="text-center" id="subtitle"> IEEE Carleton </h2>
+      <h3 class="border-left" id="duration"> Duration: April 2018 - May 2019</h3>
+      <h3 class="border-left" id="duration" style="font-style: italic;">Role: Social Director</h3>
+      <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;"> Irusha reccomended for me to run for a position on the IEEE Carleton executive team. After the efforts from SPAC and cuHacking I put in, he was impressed and wanted to push me into more event managment/leadership type positions. I ran for to be the social director on the IEEE Carleton executive team. Thankfully, I was elected to hold that position.
+      <br>
+      Throughout my time as an executive. I participated in formal meetings with votes and lots of discussion. There were so many intelligent people and great leaders amongst the executives. I learned a lot from being corrected at meetings and understood what team leadership is all about. Being in a team is not just working for an individual goal, it's working for a common goal with other team members while enjoying the journey you are on.
+      <br>
+      Some of the neat things I got to do as social director was attending a majority of the workshops IEEE Carleton hosts, and taking photographs to capture the moments. I was also in charge of updating the social media pages as well as organizing social events. 
+      <br>
+      I organized IEEE Escape Rooms for executive bonding. To organizing a Super Smash Bros. Ultimate tournament. To organizing an Aladdin movie night. To organizing a trivia night. To organizing our annual IEEE Day celebration. To organizing an IEEE bubble tea hangout event with uOttawa, which happened to be on the day of the tornado! Long story short, there was a blackout, people still went, and we played pool and had bubble tea in the dark.
+      </p>
+    </div>
+    <div class="row">
+      <h2 class ="text-center" id="subtitle"> cuHacking 2019 </h2>
+      <h3 class="border-left" id="duration"> Duration: June 2018 - March 2019</h3>
+      <h3 class="border-left" id="duration" style="font-style: italic;">Role: Director of Logistics</h3>
+      <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;"> After the downfall of cuHacking 2018. Rico was pronounced co-lead with my old elementary school friend, Alexandra Liaskovski. I was given the opportunity to become the Director of Logistics, leading a team of eight engineering and computer science students for this event.
+      <br>
+      There were many hurdles during cuHacking 2019. We faced a major sponsorship crisis since we lost the trust from a majority of our sponsosrs from the letdown of cuHacking 2018. I believe we received $15 000 less compared to the previous year. The budget was very tight as we only raised approximately $21 000 from sponsorship and we are running a 24-hour hackathon with 470+ attendees expected to show up. This was even more difficult due to the fact that Conference Services made all the Carleton University faculty and clubs to comply to use the Carleton Dining Services and not outside catering. Doing so will immediately take down our event. 
+      <br>
+      Most of the duration of the planning for this event was stressful. I was able to bring the most out of my team members and ensure they are enthusiastic and want to contribute to the team. I enjoyed running meetings, booking the venue and merchandise, planning the activities for the event, and making meaningful connections with my team members.
+      <br>
+      It was a difficult time when cuHacking 2019 did happen. There was no other lead to handle the day of logistics as it was all on my shoulders. I also had around 3 assignments and 2 midterms the night before cuHacking 2019. Also, did I ever mention to tell you that I was chased by campus security during that night? It's an interesting story that I love to tell in person.
+      <br> 
+      The event went much smoother than the year before, and we received 383 students and 100 professionals showing up. The sponsors were much happy and regained confidence with cuHacking once again. uOttaHack also had around 400 students attending their hackathon, so comparatively we did really well after the downfall from the previous year. 
+      <br>
+      Rico, was someone who I take all my leadership advice from during the time I was starting out to be a director. He taught me how to run meetings, how to handle conflicts and resolve them. He led from the front during the day-of for the demos when I was exhausted and tired. Rico had led this team in such a way that despite the difficult obstacles there were, we overcame them. Most importantly, he taught me organizational leadership, which to me was the most valuable skill I learned in my life thus far.
+      <br>
+      After the event, we divided up the logistics team to three departments. Operations, Hacker Experience, and Logistics. Logistics focuses more on the pre-planning items such as venue and food. While Operations focuses on communication with various university departments and teams within the organizing committee. Lastly, Hacker Experience, which focuses on pure day-of activities and events. The Hacker Experience team is essential to how the entire event is executed. I developed handbooks for Hacker Experience and Logistics at the time, while Rico did the one for operations. Rico continued to be the lead of cuHacking next year and it ended up a huge success. Over 600 students had attended for cuHacking 2020. The leads of the departmetns that I onboarded thanked me for doing an onboarding presentation for them. They also used the documenation I provided in order to ensure mistakes weren't repeated, which include things such as handbooks, Gantt Charts, Trello Cards, and spreadsheets. 
+      </p>
+    </div>
+    <div class="row">
+      <h2 class ="text-center" id="subtitle">IEEE SPAC 2019 </h2>
+      <h3 class="border-left" id="duration">Duration: September 2018 - February 2019</h3>
+      <h3 class="border-left" id="duration" style="font-style: italic;">Role: Patronage Lead</h3>
+      <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;"> 
+      In councurrent with being the Social Director for IEEE Carleton, Director of Logistics for cuHacking, I was also given the opportunity to be the patroange lead for SPAC 2019. I was tasked to manage a team of five to six engineering students and fund the event. The SPAC team was able to gain over $22 000 for patronage which was a budget increase of $10 000 from the previous year. 
+      <br>
+      While the patronage was successful, the committee overall wasn't as pleasant of an experience. People seemed to do SPAC for themselves to boost their portfolio rather than for the cause and for the event. To be frank, at the time I was one of them. I fell victim in the trap of overconfidence and felt like I was being the Patronage Lead just to make myself look good that under my leadership there was a gain in profits. I realized that is not what leadership is about. Leadership isn't about accomplishments, it's about motivating others to do work, and raising your hand up to a challenge that you put upon yourself.
+      <br>
+      SPAC 2019 ended up in a huge success as it was the biggest SPAC in its history holding up to 330 guests total for a networking dinner.
+      </p>
+    </div>
+    <div class="row">
+      <h2 class ="text-center" id="subtitle"> IEEE SPAC 2020</h2>
+      <h3 class="border-left" id="duration"> Duration: May 2019 - March 2020</h3>
+      <h3 class="border-left" id="duration" style="font-style: italic;">Role: SPAC Lead</h3>
+      <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;"> Entering my final years of university, I felt it was time for me to enter more mature roles. After realizing where my morals were when I volunteered was wrong, I wanted to change that. I wanted to eliminate the toxic environment from last year and incorporate a new one. I was inaugurated for SPAC Lead on May 9, 2019 with my uOttawa co-lead, Alizeh. Using the past few years of experience I gained, I felt it was finally time to give back to the event that has given me so much and started me off on this invovlemnt journey.
+      <br>
+      During the summer, Alizeh and myself ran about three meetings during the summer to understand the setup and how to run the event this year. We shared our goals and ambitions for the event and what we want to make out of it. We discussed how we should do applications because of the toxicity that was in the team last year. We want to make SPAC a professional environment where people feel comfortable and feel like they belong somewhere. Despite SPAC being an interbranch student event  That was the vision we had for our committee.
+      <br>
+      We had a list of interview questions to test soft skills ready. We marketed our applications appropriately using the right social media platforms and knowing what times to best post. We wanted to help our future team members to gain the experieince and feedback of a professional application-interview process. So that when they go for applying for jobs, they will be ready to tackle soft questions.
+      <br>
+      We ran two rounds of interviews. We gathered the Patronage Leads, Logistics Leads, and WebMaster within the first round. Then in the second round we gathered Marketing Leads, Marketing Team Members, Graphics Lead, Graphics Designers, and day-of volunteers! In total we had around 40 applications, with 34 of them becoming team members on the SPAC team.
+      <br> 
+      We asked the question, "Why do you wanna be a part of the SPAC Committee?" Why you may ask? People tend to talk about themselves and how they are good for the position. However, what I'm trying to teach the interviewees is that you should especially talk about why you want to be part of a community and make an impact for others. We ran an annual general onboarding meeting as well to showcase our values, who we are and why we do SPAC. That way people know we are doing it for a cause and common goal even after the interview.
+      <br>
+      The event itself had a lot of unfortunate outcomes. Many companies were not spending their budgets on recruitment events in the fear of a recession occuring. This affected SPAC especially, as we lost about 8-10 companies who were patrons with us last year. We were in the similar shoes of cuHacking 2019 with a very restricted budget. The one thing I have to admit that I did poorly was managing team stress at the time. It didn't occur to me at the time that my stress was projecting on others, which was not healthy management. One of my team members told me to take a step back, take a breather, and talk to the patronage team who were especially stressed at the time. I talked to each one of the patronage leads and apolgized to them for making them feel stressed.  
+      <br>
+      What I did to make this up to them, is during our usual meeting, both Alizeh and I addressed all the concerns and assured that the entire team that we will be fine for budget as we are planning a contingency budget. We even gave shout outs to every single department lead and mentioned the work they have done and both Alizeh and I are proud of them. We made it up by proposing that the next meeting will only be half its length; the rest of the time we will do professional headshots and play board games. This eased the stress of team members quite a lot, and got them motivated to do work again.
+      <br>
+      We had unfortunate issues such as the IT guy at the venue took a day off and there were A/V complications. We couldn't sell tickets at the door for half an hour since the treasurer wasn't there. Some of the nametags were mysteriously gone for some reason. However, we still made it one of the most memorable events. Cisco, our patron partner was very satisfied and the attendees were content too. I ensured to document all the things that the both Alizeh and I have done in a 50-page handbook. That way future SPAC Leads have all the information they need during onboarding and know exactly what to expect and when to delegate a task. They can focus on other aspects growing the event or making the SPAC team a family.
+      </p>
+    </div>
+    <div class="row">
+      <h2 class ="text-center" id="subtitle">IEEE Carleton</h2>
+      <h3 class="border-left" id="duration">Duration: October 2019 - April 2020</h3>
+      <h3 class="border-left" id="duration" style="font-style: italic;">Role:  Secretary</h3>
+      <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;"> I decided to be secretary of the IEEE Carleton executive team as it's an officer's position. The officers at the branch are considered the faces of IEEE Carleton. I chose to run for secretary because I wanted to improve the documentation and change the meetings to a agile stand-up approach. I was also able to organize the file structure of the organization which was very disorganized with many of the files inside the wrong folders. It was confusing for anyone to navigate through. The file structure is now completely organized and is very easy to maintain now.
+      <br>
+      The most important aspect of me being an officer was that I could help grow the future officers and leaders of the branch. This allowed me to help troubleshoot problems by giving valuable advice from my experience, or point them in the right direction towards the right contact.
+      </p>
+    </div>
+  </div>
+
+  <hr> 
+
+  <div class="fixed"></div>
+  <!--For transition-->
+  <h4 class="text-center" style="font-size: 1em; padding: 4em" id="section2"><u>Accomplishments</u></h4>
+  <div class="container-fluid">
+    <div class="row">
+        <h2 class ="text-center" id="subtitle">Sparkfest 2018</h2>
+        <h3 class="border-left" id="duration"> Awarded: Second Place </h3>
+        <h3 class="border-left" id="duration" style="font-style: italic;">Date: August 2018</h3>
+        <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;">I worked on a cool project for a tech entrepreneurship pitch competiton. I led a team with two of my friends and we brainstormed ideas of what we should make. We ended up thinking about a creative way for developers to do freelance work. We utilized the concept of Uber's "uberization" concept of getting people to help work or troubleshoot your project. 
+        <br> 
+        Our product was called HackrTrackr. How it essentially works is that you post a problem that appears on the newsfeed with several other users problems. The problems are distinguished between troubleshooting and working on side projects togehter. A programming student will try to match with you and you can observe their ratings out of five stars. Once you accept the match, you can work with him/her and then once he/she provides the service, you have to give them a rating (kind of like an Airbnb type of business).
+        <br>
+        Since this is a cross-platform application, we were going to use our tech stack to be React.Js. We were going to use firebase as our database to store all the data and user information. We'd also use Googel Maps API so that way you can find people nearby who are available to help troubleshoot problems. We were also planning on using TensorFlow to find the best suggestions to freelancers which client job they should do next. This will help improve productivity as users won't be stuck on just plain StackOverFlow, and not know what's going on. This will even help students or other future developers gain the experience and skills since they will have experience reading other people's code. Freelancers can show these ratings and reviews to companies and companies can see the types of problems they solved and the types of projects they collaborated with other people. Giving a much larger advantage than other recruiting platforms such as LinkedIn and Devpost.
+        <br>
+        There were around 8-10 other groups, and the pitches were judged by a software engineering manager at Google and the VP Innovation of Invest Ottawa. Overall, we came awarded second place.
+        </p>
+      </div>
+      <div class="row">
+        <h2 class ="text-center" id="subtitle"> Dr. Adrian Chan Volunteer & Community Service Award </h2>
+        <h3 class="border-left" id="duration" style="font-style: italic;">Date: March 2019</h3>
+        <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em; font-style: italic;"> The Adrian D. C. Chan Award for Volunteer and Community Service is issued annually, when merited, to a full-time undergraduate or graduate student enrolled in an engineering program in the Faculty of Engineering and Design. The award recognizes voluntary involvement and community engagement outside the classroom, at Carleton University and in the community at large.
+        </p>
+        <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;">
+        <br>
+        It was an honour to be recognized for my volunteer efforts in the engineering community! I truly love doing things outside the classroom and making a real world impact on people's lives. This was not just a stepping stone for my dreams but a journey that I so deeply fell in love with and enjoyed. I was awarded for my efforts in cuHacking, IEEE SPAC, IEEE Carleton, and the Integrated Autonomous Vehcile Department of Systems and Computer Engineering Project. <a href="https://newsroom.carleton.ca/story/two-students-recognized-with-adrian-chan-award-for-volunteer-and-community-service/">Click on this article </a> if you would like to see the journal/interview conducted.
+        </p>
+    </div>
+    <div class="row">
+      <h2 class ="text-center" id="subtitle">Best UI/UX Hack</h2>
+      <h3 class="border-left" id="duration">Hackathon: cuHacking 2020</h3>
+      <h3 class="border-left" id="duration" style="font-style: italic;">Date: January 13 2020</h3>
+      <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;"> 
+        We won the award for the Best UI/UX Hack for cuHacking 2020. Students go through the pain of find places the best deal to rent out a place. Students have school and part-time jobs they have to do as well. To make it simpler for students, we are producing a solution that will find the best places with the best deals by comparing the number of beds a place has to the number of beds other places have that were webscraped from Kijiji real-time. It utilizes a LinearClassifier from the TensorFlow library to measure the current deal of the bed to other deals, and produces a rating out of five stars. The website was elgantly designed using React.JS by utilizing prototyping tools such as Figma. Demos were judged by judges by professionals and interns from Kinaxis, Microsoft, Ciena, Martello, and RBC. 
+      </p>
+    </div>
+    <div class="row">
+      <h2 class ="text-center" id="subtitle"> NOMINATED: Larry K. Wilson Award </h2>
+      <h3 class="border-left" id="duration">IEEE Region R7 (Canada)</h3>
+      <h3 class="border-left" id="duration" style="font-style: italic;">Date: March 2020</h3>
+      <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em; font-style: italic">The purpose of this award is to recognize, annually, in each Region of the IEEE, the Student member most responsible for an extraordinary accomplishment associated with Student Activities. The value of a Student member who shows a pattern of dedication and ongoing service to a Student Branch/Student Branch Chapter is certainly recognized. It is sponsored by the IEEE Member and Geographic Activities (MGA) Board. </p>
+      <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;"> Was nominated this year after leading a successful year of IEEE SPAC 2020. I was also recognized for my commitments and mentorship for other fellow execs who were new to the executive committee. 
+      </p>
+    </div>
+  </div>
+
+  <hr>
+  <div class="fixed"></div>
+  <!--For transition-->
+  <h4 class="text-center" id="section3" style="padding: 3em;"><u>Projects and Work Experience</u></h4>
 
   <hr>
 
-  <div id="fixed"></div>
+  <div class="fixed"></div>
   <!--For transition-->
-  <h4 class="text-center"><u>Fun facts about me!</u></h4>
+  <h4 class="text-center" id="section4" style="padding: 3em"><u>Fun Facts</u></h4>
 
   <hr>
 
-  <div id="fixed"></div>
-  <!--For transition-->
-  <h4 class="text-center"><u>Stuff I'm working on!</u></h4>
-
-  <hr>
-
-  <footer class="container-fluid text-center footer-site">
+  <footer class="container-fluid text-center footer-site" id ="footer">
     <div id="footer-content">
       <h3>Feel free to send me an email or connect with me on social media</h3>
       <a href="mailto:rafiddewan@ieee.org?Subject=Hello Rafid!" class="fa fa-envelope fa-3x"></a>
-      <a href="https://www.facebook.com/rafid.da.one" class="fa fa-facebook fa-3x"></a>
-      <a href="https://www.instagram.com/rafid_da_one/" class="fa fa-instagram fa-3x"></a>
-      <a href="https://www.linkedin.com/in/rafid-dewan/" class="fa fa-linkedin fa-3x"></a>
-      <a href="https://github.com/rafiddewan" class="fa fa-github fa-3x"></a>
-      <h6>Last updated by Rafid Dewan - January 13, 2019 </h6>
+      <a href="https://www.facebook.com/rafid.da.one" class="fa fa-facebook fa-3x" target="_blank"></a>
+      <a href="https://www.instagram.com/rafid_da_one/" class="fa fa-instagram fa-3x" target="_blank"></a>
+      <a href="https://www.linkedin.com/in/rafid-dewan/" class="fa fa-linkedin fa-3x" target="_blank"></a>
+      <a href="https://github.com/rafiddewan" class="fa fa-github fa-3x" target="_blank"></a>
+      <h6>Last updated by Rafid Dewan - April 18, 2020 </h6>
     </div>
   </footer>
   <!--End of Footer-->

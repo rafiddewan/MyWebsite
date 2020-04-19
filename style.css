@@ -1,15 +1,29 @@
+html{
+  scroll-behavior: smooth;
+}
 html, body {
   height: 100%;
   width: 100%
 }
 
+
 nav {
 overflow: auto;
 }
 
+
 .navbar {
   background: #000000;
   font-size: 1.2em;
+}
+
+.navbar-collapse.in {
+  overflow-y: visible;
+}
+
+
+.fix.navbar-collapse {
+  overflow-x: hidden;
 }
 
 .navbar-brand{
@@ -70,7 +84,7 @@ u {
   border-bottom: 4px solid red;
 }
 
-#fixed{
+.fixed{
   background: url(img/transitions.jpeg) no-repeat center center fixed;
   display: table;
   height: 60%;
@@ -78,6 +92,23 @@ u {
   width: 100%;
   background-size: cover;
 }
+#section1{
+  padding-top: 5em;
+}
+
+#duration{
+  font-style: italic;
+  padding-left: 0.4em;
+
+}
+
+@media only screen and (max-width: 800px) {
+  #duration{
+    font-style: italic;
+    text-align: center;
+    }
+}
+
 
 .row{
   border-bottom-color: white;
