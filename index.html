@@ -10,11 +10,11 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
+<body data-spy="scroll" data-target="#navbar-collapse-main">
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -34,7 +34,7 @@
           <li><a class="active" href="#" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a></li>
           <li><a href="#section0" data-toggle="collapse" data-target=".navbar-collapse.in">About Me</a></li>
           <li><a href="#section1" data-toggle="collapse" data-target=".navbar-collapse.in">Involvement</a></li>
-          <li><a href="#section2" data-toggle="collapse" data-target=".navbar-collapse.in">Accomplishments</a></li>
+          <li><a href="#section2" data-toggle="collapse" data-target=".navbar-collapse.in">Achievements</a></li>
           <li><a href="#section3" data-toggle="collapse" data-target=".navbar-collapse.in">Projects & Work Experience</a></li>
           <li><a href="#section4" data-toggle="collapse" data-target=".navbar-collapse.in">Interests</a></li>
           <li><a href="#footer" data-toggle="collapse" data-target=".navbar-collapse.in">Contact Me</a></li>
@@ -273,7 +273,7 @@
 
   <div class="fixed"></div>
   <!--For transition-->
-  <h4 class="text-center" style="font-size: 1em; padding: 4em" id="section2"><u>Accomplishments</u></h4>
+  <h4 class="text-center" style="font-size: 1em; padding: 4em" id="section2"><u>Achievements</u></h4>
   <div class="container-fluid">
     <div class="row">
         <h2 class ="text-center" id="subtitle">Sparkfest 2018</h2>
@@ -319,7 +319,120 @@
   <hr>
   <div class="fixed"></div>
   <!--For transition-->
-  <h4 class="text-center" id="section3" style="padding: 3em;"><u>Projects and Work Experience</u></h4>
+  <h4 class="text-center" id="section3" style="padding: 3.0em 2.5em 3.0em;"><u>Projects and Work Experience</u></h4>
+  <div class="container-fluid">
+    <div class="row"> 
+      <h2 style="padding-left: 0.6em;">Internships & Freelance</h2>
+        <div class="col-sm-4 col-md-4">
+          <div class="thumbnail" style="padding: 0.8em;">
+            <img src="img/projects_and_experience/Innovapost-Logo.png" alt="Innovapost-Logo">
+            <div class="caption">
+              <h3>Innovapost</h3>
+              <h5 style="font-weight: bold;">Position: Student (Technical) Center of Excellnce <br><br>Duration: May 2019-August 2019</h5>
+              <p>Developed and architected an active/active data center using Microsft Azure. Utilized Ansible and Ansible Tower for the automation for the components and workflows. Documented procedures and architected state diagram workflows on Conflunece. This was my first internship and I was amazed how much I learned! It was tricky at the start because I struggled a bit with declarative programming (since I was used to imperitive programming). I got to also learn about various test strategies, pipelines, networking (such as subnet masking), and most importantly, the infrastructure of the Azure cloud. This opportunity also gave me the chance to demonstrate bi-weeekly demos to 20+ stakeholders. The one thing I will always remember at Innovapost is that <b>IT IS AGILE!!!</b> An amazing place to work, I'd defnitely reccomend it.</p>
+            </div>
+          </div>
+        </div>
+        <div class ="col-sm-4 col-md-4">
+          <div class="thumbnail" style="padding:0.8em">
+            <img src="img/projects_and_experience/IEEE Canadian Foundation.jpg" alt="IEEE-Canadian-Foundation-logo">
+            <div class="caption">
+              <h3>IEEE Canadian Foundation (ICF)</h3>
+              <h5 style="font-weight: bold;">WebMaster<br><br>Duration: April 2020 - Present
+              </h5>
+              <p> I realized I have lots of experience now in leadership positions. Though, I need to also focus on my technical experience just as much now. I recently began freelancing for an officially recognized non-profit organizaiton. ICF gives grants to engineering projects and scholarships for outstanding engineering students in the IEEE. I am currently learning File Transfer Protocols for file management (as there are a lot of files in the back-end). As well as designing wireframes to make the website more modernized (as it looks like it was last touched in 2004). I am looking into modernizing the front-end to React.JS or Typescript, something that will be easy to use and pickup for other developers. 
+              <p><a href="http://www.ieeecanadianfoundation.org/EN/" target="_blank" class="btn btn-default" role="button" onclick="this.blur();">View Website</a></p>
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row"> 
+      <h2 style="padding-left: 0.6em;">Projects</h2>
+        <div class="col-sm-1 col-md-4">
+          <div class="thumbnail" style="padding: 0.8em;">
+            <img src="img/projects_and_experience/autonomousvehiclekit.jpg" alt="Autonomous Vehicle Kit">
+            <div class="caption">
+              <h3>Department of Systems and Computer Engineering (SCE) Autnomous Vehicle Project</h3>
+              <h5 style="font-weight: bold;">Position: Project Lead</h5>
+              <h5 style="font-weight: bold;">Duration: March 2020 - Present</h5>
+              <p>The SCE has approached IEEE Carleton to spearhead their autonomous vehicle project. They will be purchasing a kit for the vehicle in May 2022. My role is to pioneer the foundation, structure, and architect the engineering of the project. I've been currently reading up on possible open-source operating systems to use for this project such as Apex OS. I'm trying to convince the chair if it's possible to get a QNX license since Carleton University already has a research partnership with them.</p>
+            </div>
+          </div>
+        </div>
+        <div class ="col-sm-4 col-md-4">
+          <div class="thumbnail" style="padding:0.8em">
+            <img src="img/projects_and_experience/PowerPlanner.jpeg" alt="PowerPlanner-Schedule">
+            <div class="caption">
+              <h3>Microsoft PowerPlanner (Open-Source)</h3>
+              <h5 style="font-weight: bold;">Duration: March 2020 - Present</h5>
+              <p>Currently contributing Microsoft's open-sourced cross-platform schdedule application. It's an amazing timetabling tool to schedule your courses! The code-base is primarily written in C#. I'm currently developing a notification system that notifies you 15 minutes before class that you have class. I've also been researching with the project manager if we can investigate voice-command features so that users can add tasks or events comfotably. I'm also working on replacing the events and tasks with assignments and tests.</p>
+              <a href="https://github.com/powerplanner/powerplannerapps" target="_blank" class="btn btn-default" role="button" onclick="this.blur();">See Project</a></p>
+            </div>
+          </div>
+        </div>
+        <div class ="col-sm-4 col-md-4">
+          <div class="thumbnail" style="padding:0.8em">
+            <img src="img/projects_and_experience/JumpIn.png" alt="JumpIn">
+            <div class="caption">
+              <h3>JumpIn</h3>
+              <h5 style="font-weight: bold;"></h5>Duration: September 2019 - December 2019</h5>
+              <p> I developed a really fun game called JumpIn, with a couple of friends. JumpIn is a game developed by <a href="https://www.smartgames.eu/uk/one-player-games/jumpin" target="_blank">SmartGames</a>. It was a really fun experience as we used design patterns learned in our software design course such as Observer, Strategy, and  Composite pattern. The game uses  We also made our game serializable in XML too in order to have a save and load feature. </p>
+              <a href="https://github.com/rafiddewan/JumpIn" target="_blank" class="btn btn-default" role="button" onclick="this.blur();">See Project</a></p>
+            </div>
+            </div>
+         </div>
+          <div class ="col-xss-1 col-md-4">
+            <div class="thumbnail" style="padding:0.8em">
+              <img src="img/projects_and_experience/cuHaunted.png" alt="ghostPic">
+                <div class="caption">
+                  <h3>CUHaunted</h3>
+                  <h5 style="font-weight: bold;">Duration: October 2019 - Present
+                  </h5>
+                  <p> As a means to teach myself C# and Unity. I decided on making a "Choose Your Own Adventure Game". This was a mini horror story game I made. I am also really passionate about writing and telling stories so I spent extra time desigining the story. I made a state diagram for the workflow for the story and the possible options for a user to take. I am also developing the code for the game. It was a really simple project I made to get used to the syntax of C# and the Unity environment.</p>
+                </div>
+            </div>
+          </div>
+          <div class ="col-sm-4 col-md-4">
+            <div class="thumbnail" style="padding:0.8em">
+              <img src="img/projects_and_experience/PCBRuler.jpg" alt="IEEE PCB Ruler">
+              <div class="caption">
+                <h3>IEEE Carleton Micrcontroller</h3>
+                <h5 style="font-weight: bold;">Duration: February 2019 - April 2019
+                </h5>
+                <p> I had a really fun time designing my very own Micrcontroller from scratch! I participated in the PCB Design workshop IEEE Carleton hosts every year. I followed a step by step tutorial of using PADS to design the schematics of the board. The parts were ordered from a factory in China and we got the opportunity to solder and make the microcontroller function. It was a very rewarding experience, as you can see in the picture that was the microcontroller I made!</p>
+              </div>
+            </div>
+          </div>
+          <div class ="col-sm-4 col-md-4">
+            <div class="thumbnail" style="padding:0.8em">
+              <img src="img/projects_and_experience/MyWebsite.png" alt="IEEE Canadian Foundation logo">
+              <div class="caption">
+                <h3>Website</h3>
+                <h5 style="font-weight: bold;">Duration: April 2019 - Present
+                </h5>
+                <p> This website is currently mostly CSS, HTML, and a little bit of JavaScript. It also uses the Bootstrap 3 library. Unlike other portfolio websites, I wanted to make this one a story about my life and the things I have done. I'm really proud of them and I hope to keep growing and learning more! Some things I wanted to work on further on this website could be found in my README.md.
+                </p>
+                <a href="https://github.com/rafiddewan/Rafid-Dewan" target="_blank" class="btn btn-default" role="button" onclick="this.blur();">See Project</a></p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class ="col-sm-4 col-md-4">
+            <div class="thumbnail" style="padding:0.8em">
+              <img src="img/projects_and_experience/NutriLife.png" alt="NutriLife login screen">
+              <div class="caption">
+                <h3>NutriLife</h3>
+                <h5 style="font-weight: bold;">Duration: September 2016 - January 2017</h5>
+                <p> Back in high school, I was very health concious and wanted to track my calroeis. I was taking a computer science course and learned about Java recently. What cool way to apply the skills I learned would be no better than to make a nutrition application? Me and a friend worked on it together (despite using Google Docs as our VCS since we didn't know about Git LOL). We had an amazing time learning about Java Swing and we also got to explore Android Development as we wanted to have a mobile version of the game too. This project is what helped me decide on picking software engineering over other disciplines!</p>
+                <a href="https://github.com/rafiddewan/Rafid-Dewan" target="_blank" class="btn btn-default" role="button" onclick="this.blur();">See Project</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <hr>
 
@@ -332,11 +445,11 @@
   <footer class="container-fluid text-center footer-site" id ="footer">
     <div id="footer-content">
       <h3>Feel free to send me an email or connect with me on social media</h3>
-      <a href="mailto:rafiddewan@ieee.org?Subject=Hello Rafid!" class="fa fa-envelope fa-3x"></a>
-      <a href="https://www.facebook.com/rafid.da.one" class="fa fa-facebook fa-3x" target="_blank"></a>
-      <a href="https://www.instagram.com/rafid_da_one/" class="fa fa-instagram fa-3x" target="_blank"></a>
-      <a href="https://www.linkedin.com/in/rafid-dewan/" class="fa fa-linkedin fa-3x" target="_blank"></a>
-      <a href="https://github.com/rafiddewan" class="fa fa-github fa-3x" target="_blank"></a>
+      <a href="mailto:rafiddewan@ieee.org?Subject=Hello Rafid!" class="fa fa-envelope fa-3x" onclick="this.blur();"></a>
+      <a href="https://www.facebook.com/rafid.da.one" class="fa fa-facebook fa-3x" target="_blank" onclick="this.blur();"></a>
+      <a href="https://www.instagram.com/rafid_da_one/" class="fa fa-instagram fa-3x" target="_blank" onclick="this.blur();"></a>
+      <a href="https://www.linkedin.com/in/rafid-dewan/" class="fa fa-linkedin fa-3x" target="_blank" onclick="this.blur();"></a>
+      <a href="https://github.com/rafiddewan" class="fa fa-github fa-3x" target="_blank" onclick="this.blur();"></a>
       <h6>Last updated by Rafid Dewan - April 18, 2020 </h6>
     </div>
   </footer>
