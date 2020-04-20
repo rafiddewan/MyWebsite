@@ -5,7 +5,61 @@ html, body {
   height: 100%;
   width: 100%
 }
-
+.carousel-inner img {
+  margin: auto;
+  width:80%; 
+  height: 500px !important;
+}
+#carousel-volunteering {
+  margin: auto;
+  width: 70%;
+  height: auto !important;
+}
+#carousel-volunteering-1 {
+  margin: auto;
+  width: 70%;
+  height: auto !important;
+}
+#carousel-volunteering-2 {
+  margin: auto;
+  width: 70%;
+  height: auto !important;
+}
+#carousel-volunteering-3 {
+  margin: auto;
+  width: 70%;
+  height: auto !important;
+}
+#carousel-volunteering-4 {
+  margin: auto;
+  width: 70%;
+  height: auto !important;
+}
+#carousel-volunteering-5 {
+  margin: auto;
+  width: 70%;
+  height: auto !important;
+}
+#carousel-volunteering-6 {
+  margin: auto;
+  width: 70%;
+  height: auto !important;
+}
+#carousel-award{
+  margin: auto;
+  width: 45%;
+  height: 100% !important;
+}
+#carousel-award2{
+  margin: auto;
+  width: 70%;
+  height: auto !important;
+}
+.carousel-caption{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.349);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 body{
   position: relative;
 }
