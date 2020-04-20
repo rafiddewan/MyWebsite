@@ -13,6 +13,13 @@ html, body {
   height: 500px !important;
 }
 
+@media only screen and (min-width: 1280px){
+  .carousel-inner img {
+    margin: auto;
+    width: 75%;
+    height: 100%
+  }
+}
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   .carousel-inner img {
@@ -99,11 +106,14 @@ html, body {
   width: 70%;
   height: auto !important;
 }
+
 .carousel-caption{
   color: white;
   background-color: rgba(0, 0, 0, 0.349);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
 body{
   position: relative;
 }

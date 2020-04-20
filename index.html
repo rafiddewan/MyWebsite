@@ -10,8 +10,8 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="app.js"></script>
   <link rel="stylesheet" href="style.css">
+  <script src="/node_modules/readmore-js/readmore.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-collapse-main">
@@ -168,8 +168,14 @@
         <h2 class ="text-center" id="subtitle"> IEEE SPAC 2018 </h2>
         <h3 class="border-left" id="duration"> Duration: September 2017 - January 2018</h3>
         <h3 class="border-left" id="duration" style="font-style: italic;">Role: Patronage Team Member and Master of Ceremonies</h3>
-        <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;">My first opportunity I grabbed was IEEE SPAC 2018. It all started at Expo Carleton; which was a day during orientation week where all the clubs present themselves at individual booths. I signed up for this hi-tech engineering club's newsletter. The club was called IEEE Carleton. One day, during the second week of my first year, I received an email from the IEEE Carleton Office Director that they were looking for organizers to help out with this big networking event they host ever year. The email mentioned that there will be a meeting for orientaiton that night. I thought this would be an excellent opportunity for me to get my name out there and make connections with amazing companies! Although... I've never organized any event in my life... 
-          <br>I headed to the meeting, and I remember very fondly, the room was very dark with only a dim lamp light above. I was nervous at first, as there were many other individuals who were much older than I was. I noticed at the introduction a lot of others were nervous too. When questions were asked of what we wanted to do for the event this year, no one said anything. I decided if I want to make an impact, and lead the conversation by example, I needed to put my hand up, so I did. Naturally, it was really nerve wracking, so I studdered a bit. I was only a freshman, but people applauded my suggestion and said it was a really good idea! After that, others that were quiet started raising their hands up too.
+        <div class="summary">
+        <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;">
+          My first opportunity I grabbed was IEEE SPAC 2018. It all started at Expo Carleton; which was a day during orientation week where all the clubs present themselves at individual booths. I signed up for this hi-tech engineering club's newsletter. The club was called IEEE Carleton. One day, during the second week of my first year, I received an email from the IEEE Carleton Office Director that they were looking for organizers to help out with this big networking event they host ever year. The email mentioned that there will be a meeting for orientaiton that night. I thought this would be an excellent opportunity for me to get my name out there and make connections with amazing companies! Although... I've never organized any event in my life... 
+          </p>
+        </div>
+        <div id ="content">
+          <p style="font-size: 1em; text-align: center; padding-left:5em ;padding-right: 5em;">
+          I headed to the meeting, and I remember very fondly, the room was very dark with only a dim lamp light above. I was nervous at first, as there were many other individuals who were much older than I was. I noticed at the introduction a lot of others were nervous too. When questions were asked of what we wanted to do for the event this year, no one said anything. I decided if I want to make an impact, and lead the conversation by example, I needed to put my hand up, so I did. Naturally, it was really nerve wracking, so I studdered a bit. I was only a freshman, but people applauded my suggestion and said it was a really good idea! After that, others that were quiet started raising their hands up too.
           <br> I volunteered to work on the patronage team because it was an excellent opportunity for me to make connections with various professionals. My job was to email companies and request for their patronage. From there on, for the first time in my life, I met some amazing mentors and role models I look up to till this day. Linda Tang was the Patronage Lead at that time and Dharina Hanumunthadu was the event lead. It was also Dharina's first time on the SPAC team too. Both of them demonstrated pure leadership and organization skills when managing the event. I really looked up to both of them and wanted to be great leaders, just like both of them. I was amazed that the first role models I ever had (and in STEM), were both women (in a good way of course). I am extremely proud of that.
           <br>
           Closer to the event, we had to finalize a couple of things, such as choosing a Master of Cermonies (MC). When Dharina asked who wants to be the MC of IEEE SPAC 2018, I put my hand up. Then, I requested Linda to put her hand up too because I was really comfortable talking to her most of the time. The whole team vouched for us and I was so happy and humbled to be chosen as one of the hosts for this amazing event. I remembered I practiced the script 20 times right before the event.
@@ -181,7 +187,11 @@
           Many opportunities came to me soon afterwards. I remember when I went to the cash bar alone to grab a glass of gingerale (I don't drink alcohol as I'm muslim), a recruiter from came up beside me and asked for two beers. He handed one over to me and said, "I know you are underage, but here have this you did amazing." I stared at the drink he gave me, I was speachless. I told him I was very flattered and those words meant a lot to me but I politely declined the drink. He mentioned that I had a bright future ahead of me. I then went to go see my team mates, and the IEEE Carleton Chair, Irusha Vidanamadura came up to me, put his nametag around me, and said, "You were the best MC I have ever seen. I see an amazing leader in you, you will go really far in life trust me." Then we posed for a picture together (see gallery). I was so happy to hear that because I felt like I'm now finally playing to my strengths. 
           <br>It's situations like these you feel fulfilled and accomplished something in life after thinking you are useless and not worthy for so long. This might be the longest passage but it's the most memorable one and will always be a part of me. I wanted to give back to the community of something it gave me; the confidence and leadership. So I decided to aim higher to even volunteer for more positions. The remaining passages are going to be much shorter than this one, as this one was the most meaningful story for me.
           </p>
-          <div id="carousel-volunteering" class="carousel slide" data-ride="carousel" style="padding-bottom: 5em;">
+        </div>
+        <script>
+          $('#content').readmore({speed: 500});
+        </script>
+          <div id="carousel-volunteering" class="carousel slide" data-ride="carousel" style="padding: 5em 0em 5em;">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#carousel-volunteering" data-slide-to="0" class="active"></li>
