@@ -19,6 +19,15 @@ html, body {
     width: 50%;
     height: 100%
   }
+  h4{
+    font-size: 20px;
+  }
+  h5{
+    font-size: 24px;
+  }
+  p{
+    font-size: 16px;
+  }
 }
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
