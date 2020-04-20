@@ -5,11 +5,53 @@ html, body {
   height: 100%;
   width: 100%
 }
-.carousel-inner img {
-  margin: auto;
-  width:80%; 
-  height: 500px !important;
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+  .carousel-inner img {
+    margin: auto;
+    width:80%; 
+    height: 500px !important;
+  }
+  
 }
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .carousel-inner img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  .carousel-inner img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .carousel-inner img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  .carousel-inner img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 #carousel-volunteering {
   margin: auto;
   width: 70%;
