@@ -1,3 +1,7 @@
+$(window).on("load",function(){
+  $(".loader-wrapper").fadeOut("slow");
+});
+
 $(document).ready(function(){
   $('#myVolunteerBtn').on('click', function() {
     this.blur();
