@@ -30,6 +30,9 @@ html, body {
   }
   p{
     font-size: 16px;
+    text-align: center; 
+    padding-left:5em ;
+    padding-right: 5em;
   }
 }
 /* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -70,8 +73,21 @@ html, body {
     max-height: 325px;
   }
 }
+.cardstyle p{
+  font-size: 16px;
+}
+.regular{
+  font-size: 1.3em;
+  text-align: center; 
+  padding-left:5em ;
+  padding-right: 5em;
+
+}
 .landing-text .container{
   background-color: rgba(0, 0, 0, 0.3);
+}
+#more{
+  display: none;
 }
 #carousel-volunteering {
   margin: auto;
