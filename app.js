@@ -3,6 +3,7 @@ $(window).on("load",function(){
 });
 
 $(document).ready(function(){
+  $('#page').show();
   $('#myVolunteerBtn').on('click', function() {
     this.blur();
     var $el = $(this),
