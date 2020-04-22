@@ -1,9 +1,17 @@
+window.setInterval(function() {
+  // this will execute on every 5 seconds
+    if($('#icon').text() == 'RD_') {
+      $('#icon').text('RD');
+    }
+    else{
+      $('#icon').text('RD_');
+    }  
+}, 300);
 $(window).on("load",function(){
   $(".loader-wrapper").fadeOut("slow");
 });
 
 $(document).ready(function(){
-  $('#page').show();
   $('#myVolunteerBtn').on('click', function() {
     this.blur();
     var $el = $(this),
