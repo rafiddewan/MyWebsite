@@ -275,6 +275,7 @@ u {
   text-align: center; 
   padding-left:5em ;
   padding-right: 5em;
+  padding-bottom: 5em;
 }
 
 @media only screen and (max-width: 800px) {
