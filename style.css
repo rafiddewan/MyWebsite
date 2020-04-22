@@ -71,16 +71,20 @@ html, body {
     height: 100%;
     max-height: 325px;
   }
+  #role{
+    text-align: center;
+  }
 }
 .cardstyle p{
   font-size: 16px;
 }
 .regular{
-  font-size: 1.3em;
+  font-family: 'cardo', serif;
+  font-size: 1em;
   text-align: center; 
   padding-left:5em ;
   padding-right: 5em;
-
+  line-height: 200%;
 }
 .landing-text .container{
   background-color: rgba(0, 0, 0, 0.3);
@@ -149,14 +153,21 @@ nav {
 overflow: auto;
 }
 
-#dradrianchanawardinfo{
-  font-size: 1.5em; 
+
+
+#awardinfo{
+  font-family: 'cardo', serif; 
+  line-height: 200%;
+  font-size: 1.3em; 
   padding-left: 1em;
   padding-right: 1em;
   text-align: center; 
   font-style: italic;
 }
 
+.cardstyle{
+  font-family: 'montserrat', serif; 
+}
 .navbar {
   background: #000000;
   font-size: 1.2em;
@@ -218,6 +229,8 @@ overflow: auto;
   font-style: BOLD;
 }
 
+
+
 .landing-text h3{
   font-size: 200%;
 }
@@ -241,19 +254,34 @@ u {
   padding-top: 5em;
 }
 
-#duration{
-  font-style: italic;
+#role{
+  font-family: 'Fira Sans', sans-serif;
   padding-left: 0.4em;
+  padding-bottom: 3em;
+}
 
+#duration{
+  font-family: 'Fira Sans', sans-serif;
+  padding-left: 0.4em;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
+.introPassage{
+  font-family: 'Montserrat', sans-serif;
+  font-style: BOLD;
+  line-height: 150%;
+  text-align: center;
+  text-align: center; 
+  padding-left:5em ;
+  padding-right: 5em;
 }
 
 @media only screen and (max-width: 800px) {
   #duration{
-    font-style: italic;
     text-align: center;
     }
 }
-
 
 .row{
   border-bottom-color: white;
@@ -360,6 +388,3 @@ hr {
   width: 100%;
   padding: 1em
 }
-
-
-

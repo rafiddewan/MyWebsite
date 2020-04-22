@@ -5,7 +5,7 @@ $(window).on("load",function(){
 
 $(document).ready(function(){
   $('#myVolunteerBtn').on('click', function() {
-    this.blur();
+    $('#myVolunteerBtn').blur();
     var $el = $(this),
       textNode = this.lastChild;
     $el.find('span').toggleClass('glyphicon-fire glyphicon-tint');
@@ -21,7 +21,7 @@ $(document).ready(function(){
     $el.toggleClass('showRead');
   });
   $('#myVolunteerBtn2').on('click',function() {
-    this.blur();
+    $('#myVolunteerBtn2').blur();
     var $el = $(this),
       textNode = this.lastChild;
     $el.find('span').toggleClass('glyphicon-fire glyphicon-tint');
@@ -29,7 +29,7 @@ $(document).ready(function(){
     $el.toggleClass('showRead');
   });
   $('#myVolunteerBtn3').on('click',function() {
-    this.blur();
+    $('#myVolunteerBtn3').blur();
     var $el = $(this),
       textNode = this.lastChild;
     $el.find('span').toggleClass('glyphicon-fire glyphicon-tint');
@@ -37,7 +37,7 @@ $(document).ready(function(){
     $el.toggleClass('showRead');
   });
   $('#myVolunteerBtn4').on('click',function() {
-    this.blur();
+    $('#myVolunteerBtn4').blur();
     var $el = $(this),
       textNode = this.lastChild;
     $el.find('span').toggleClass('glyphicon-fire glyphicon-tint');
@@ -45,6 +45,7 @@ $(document).ready(function(){
     $el.toggleClass('showRead');
   });
   $('#myVolunteerBtn5').on('click',function() {
+    $('#myVolunteerBtn5').blur();
     var $el = $(this),
       textNode = this.lastChild;
     $el.find('span').toggleClass('glyphicon-fire glyphicon-tint');
@@ -52,7 +53,7 @@ $(document).ready(function(){
     $el.toggleClass('showRead');
   });
   $('#myVolunteerBtn6').on('click',function() {
-    this.blur();
+    $('#myVolunteerBtn6').blur();
     var $el = $(this),
       textNode = this.lastChild;
     $el.find('span').toggleClass('glyphicon-fire glyphicon-tint');
@@ -60,7 +61,7 @@ $(document).ready(function(){
     $el.toggleClass('showRead');
   });
   $('#myAwardBtn1').on('click',function() {
-    this.blur();
+    $('#myAwardBtn1').blur();
     var $el = $(this),
       textNode = this.lastChild;
     $el.find('span').toggleClass('glyphicon-fire glyphicon-tint');
@@ -68,7 +69,7 @@ $(document).ready(function(){
     $el.toggleClass('showRead');
   });
   $('#myAwardBtn2').on('click',function() {
-    this.blur();
+    $('#myAwardBtn2').blur();
     var $el = $(this),
       textNode = this.lastChild;
     $el.find('span').toggleClass('glyphicon-fire glyphicon-tint');
@@ -76,7 +77,7 @@ $(document).ready(function(){
     $el.toggleClass('showRead');
   });
   $('#myAwardBtn3').on('click',function() {
-    this.blur();
+    $('#myAwardBtn3').blur();
     var $el = $(this),
       textNode = this.lastChild;
     $el.find('span').toggleClass('glyphicon-fire glyphicon-tint');
@@ -84,7 +85,7 @@ $(document).ready(function(){
     $el.toggleClass('showRead');
   });
   $('#myAwardBtn4').on('click',function() {
-    this.blur();
+    $('#myAwardBtn4').blur();
     var $el = $(this),
       textNode = this.lastChild;
     $el.find('span').toggleClass('glyphicon-fire glyphicon-tint');
