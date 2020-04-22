@@ -1,12 +1,4 @@
-window.setInterval(function() {
-  // this will execute on every 5 seconds
-    if($('#icon').text() == 'RD_') {
-      $('#icon').text('RD');
-    }
-    else{
-      $('#icon').text('RD_');
-    }  
-}, 300);
+window.setInterval(function() { ($('#icon').text() == 'RD_') ? $('#icon').text('RD') : $('#icon').text('RD_') }, 300);
 $(window).on("load",function(){
   $(".loader-wrapper").fadeOut("slow");
 });
