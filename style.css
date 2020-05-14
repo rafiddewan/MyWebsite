@@ -461,6 +461,10 @@ hr {
     height: 1000vh !important;
   }
 
+  #intro{
+    font-size: 3vw;
+  }
+
   .carousel-caption{
     font-size: 2.5vw;
   }
